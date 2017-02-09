@@ -1,0 +1,11 @@
+/*
+class Subtractor : public ocv::FrameProcessor {
+    cv::BackgroundSubtractorMOG mog;
+
+    public:
+    void process(cv::Mat &image, cv::Mat &output) {
+        mog(image, output, 0.01);
+        cv::threshold(output, output, 128,255, cv::THRESH_BINARY_INV);
+    }
+};
+*/
